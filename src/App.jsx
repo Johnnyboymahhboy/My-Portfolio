@@ -14,7 +14,11 @@ import NotFound from './Pages/PagesStyleCss/NotFound';
 function App() {
 return (
     <>
-   
+       <>
+            <Navbar/>
+            <Outlet/>
+            <Footer/>
+       </>
     </>
 )
 }

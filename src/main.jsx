@@ -9,23 +9,23 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 
 const router = createBrowserRouter([
   {
-    path: "/My-Profile/",
+    path: "/My-Portfolio/",
     element: <App/>,
     children: [
       {
-        path: "/My-Profile/",
+        path: "/My-Portfolio/",
         element: <Home/>
       },
       {
-        path: "/My-Profile/about",
+        path: "/My-Portfolio/about",
         element: <About/>
       },
       {
-        path: "/My-Profile/skills",
+        path: "/My-Portfolio/skills",
         element: <Skills/>
       },
       {
-        path: "/My-Profile/contact",
+        path: "/My-Portfolio/contact",
         element: <Contact/>
       },
     ]

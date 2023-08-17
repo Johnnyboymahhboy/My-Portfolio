@@ -1,0 +1,1096 @@
+
+.home-container{
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1em;
+  color: white;
+
+}
+
+.start-introducing{
+  width: 80%;
+  padding: 2em;
+  margin: 1em;
+  background-color: rgb(0, 0, 0);
+
+}
+
+
+.Welcome{
+  color: white;
+  padding: 1em;
+}
+.Welcome p {
+  font-size: 20px;
+  color: rgb(180, 169, 169);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: light;
+}
+.cen .name{
+  background: linear-gradient(#ff5500, #ff0062);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 50px;
+
+}
+.cen{
+  color: white;
+  padding: 1em;
+}
+.cen h2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 70px;
+  
+  color: white;
+}
+.outro p{
+  font-weight: light;
+  font-size: 20px;
+  color: rgb(180, 169, 169);
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.outro {
+  color: white;
+  padding: 1em;
+}
+.btns{
+ 
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.btnContact{
+  margin-left: 30px;
+  background-color: black;
+  color: white;
+  border: 1px solid white ;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  width: 200px;
+  font-size: 1.5em;
+  padding: .8em;
+
+}
+.btnHire{
+  background: linear-gradient(#ff5500, #ff0062);
+  color: white;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  width: 200px;
+  font-size: 1.5em;
+  padding: .8em;
+  border: 1px solid black ;
+}
+
+.btnContact:hover{
+  background: linear-gradient(#ff5500, #ff0062);
+  transform: scale(1.1);
+  border: none;
+}
+
+
+.btnHire:hover{
+  background: linear-gradient(#000000, #000000);
+  color: white;
+  border: 1px solid white ;
+  transform: scale(1.1);
+}
+
+
+
+@media (min-width: 90px) and (max-width: 199px){
+
+  .cen h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    
+    color: white;
+  }
+  .cen .name{
+    background: linear-gradient(#ff5500, #ff0062);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 25px;
+  
+  }
+  .outro p{
+    font-weight: light;
+    font-size: 12px;
+    color: rgb(180, 169, 169);
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+  .Welcome p {
+    font-size: 12px;
+    color: rgb(180, 169, 169);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: light;
+  }
+  .cen{
+    color: white;
+    padding: .5em;
+  }
+  .outro {
+    color: white;
+    padding: .5em;
+  }
+
+  .Welcome{
+    color: white;
+    padding: .5em;
+  }
+
+
+  .btns{
+    padding: 1em;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .btnContact{
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+    border: 1px solid white ;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    width: 100px;
+    font-size: 12px;
+    padding: .5em;
+  
+  }
+  .btnHire{
+    background: linear-gradient(#ff5500, #ff0062);
+    color: white;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    width: 100px;
+    font-size: 12px;
+    padding: .5em;
+    border: 1px solid black ;
+  }
+  .home-container{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0%;
+    color: white;
+  }
+  .start-introducing{
+    width: 80%;
+    padding: 1em;
+    margin: 1em;
+    background-color: rgb(0, 0, 0);
+  
+  }
+  
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 200px) and (max-width: 319px){
+
+  .cen h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    
+    color: white;
+  }
+  .cen .name{
+    background: linear-gradient(#ff5500, #ff0062);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 25px;
+  
+  }
+  .outro p{
+    font-weight: light;
+    font-size: 12px;
+    color: rgb(180, 169, 169);
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+  .Welcome p {
+    font-size: 12px;
+    color: rgb(180, 169, 169);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: light;
+  }
+  .cen{
+    color: white;
+    padding: .5em;
+  }
+  .outro {
+    color: white;
+    padding: .5em;
+  }
+
+  .Welcome{
+    color: white;
+    padding: .5em;
+  }
+
+
+  .btns{
+    padding: 1em;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .btnContact{
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+    border: 1px solid white ;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    width: 100px;
+    font-size: 12px;
+    padding: .5em;
+  
+  }
+  .btnHire{
+    background: linear-gradient(#ff5500, #ff0062);
+    color: white;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    width: 100px;
+    font-size: 12px;
+    padding: .5em;
+    border: 1px solid black ;
+  }
+  .home-container{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0%;
+    color: white;
+  }
+  .start-introducing{
+    width: 80%;
+    padding: 1em;
+    margin: 1em;
+    background-color: rgb(0, 0, 0);
+  
+  }
+  
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 576px){
+
+  .cen h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    
+    color: white;
+  }
+  .cen .name{
+    background: linear-gradient(#ff5500, #ff0062);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 25px;
+  
+  }
+  .outro p{
+    font-weight: light;
+    font-size: 12px;
+    color: rgb(180, 169, 169);
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+  .Welcome p {
+    font-size: 12px;
+    color: rgb(180, 169, 169);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: light;
+  }
+  .cen{
+    color: white;
+    padding: .5em;
+  }
+  .outro {
+    color: white;
+    padding: .5em;
+  }
+
+  .Welcome{
+    color: white;
+    padding: .5em;
+  }
+
+
+  .btns{
+    padding: 1em;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .btnContact{
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+    border: 1px solid white ;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    width: 100px;
+    font-size: 12px;
+    padding: .5em;
+  
+  }
+  .btnHire{
+    background: linear-gradient(#ff5500, #ff0062);
+    color: white;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    width: 100px;
+    font-size: 12px;
+    padding: .5em;
+    border: 1px solid black ;
+  }
+  .home-container{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0%;
+    color: white;
+  }
+  .start-introducing{
+    width: 80%;
+    padding: 1em;
+    margin: 1em;
+    background-color: rgb(0, 0, 0);
+  
+  }
+  
+ 
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 577px) and (max-width: 767px){
+  .cen h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    
+    color: white;
+  }
+  .cen .name{
+    background: linear-gradient(#ff5500, #ff0062);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 30px;
+  
+  }
+  .outro p{
+    font-weight: light;
+    font-size: 15px;
+    color: rgb(180, 169, 169);
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+  .Welcome p {
+    font-size: 15px;
+    color: rgb(180, 169, 169);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: light;
+  }
+  .cen{
+    color: white;
+    padding: .5em;
+  }
+  .outro {
+    color: white;
+    padding: .5em;
+  }
+
+  .Welcome{
+    color: white;
+    padding: .5em;
+  }
+
+
+  .btns{
+    padding: 1em;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .btnContact{
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+    border: 1px solid white ;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    width: 100px;
+    font-size: 15px;
+    padding: .5em;
+  
+  }
+  .btnHire{
+    background: linear-gradient(#ff5500, #ff0062);
+    color: white;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    width: 100px;
+    font-size: 15px;
+    padding: .5em;
+    border: 1px solid black ;
+  }
+  .home-container{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0%;
+    color: white;
+  }
+  .start-introducing{
+    width: 80%;
+    padding: 1em;
+    margin: 1em;
+    background-color: rgb(0, 0, 0);
+  
+  }
+}
+
+
+
+
+
+@media (min-width: 577px) and (max-width: 767px){
+  .cen h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    
+    color: white;
+  }
+  .cen .name{
+    background: linear-gradient(#ff5500, #ff0062);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 35px;
+  
+  }
+  .outro p{
+    font-weight: light;
+    font-size: 20px;
+    color: rgb(180, 169, 169);
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+  .Welcome p {
+    font-size: 20px;
+    color: rgb(180, 169, 169);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: light;
+  }
+  .cen{
+    color: white;
+    padding: .7em;
+  }
+  .outro {
+    color: white;
+    padding: .7em;
+  }
+
+  .Welcome{
+    color: white;
+    padding: .7em;
+  }
+  .btns{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 1em;
+  }
+  
+  .btnContact{
+    margin-left: 25px;
+    background-color: black;
+    color: white;
+    border: 1px solid white ;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    width: 150px;
+    font-size: 17px;
+    padding: .7em;
+  
+  }
+  .btnHire{
+    background: linear-gradient(#ff5500, #ff0062);
+    color: white;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    width: 150px;
+    font-size: 17px;
+    padding: .7em;
+    border: 1px solid black ;
+  }
+  .home-container{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1em;
+    color: white;
+  
+  }
+  
+  .start-introducing{
+    width: 80%;
+    padding: 1em;
+    margin: 1em;
+    padding-bottom: 6em;
+    background-color: rgb(0, 0, 0);
+  
+  }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  
+  .cen h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    
+    color: white;
+  }
+  .cen .name{
+    background: linear-gradient(#ff5500, #ff0062);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 40px;
+  
+  }
+  .outro p{
+    font-weight: light;
+    font-size: 25px;
+    color: rgb(180, 169, 169);
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+  .Welcome p {
+    font-size: 25px;
+    color: rgb(180, 169, 169);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: light;
+  }
+  .cen{
+    color: white;
+    padding: .9em;
+  }
+  .outro {
+    color: white;
+    padding: .9em;
+  }
+
+  .Welcome{
+    color: white;
+    padding: .9em;
+  }
+  .btns{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 1em;
+  }
+  
+  .btnContact{
+    margin-left: 30px;
+    background-color: black;
+    color: white;
+    border: 1px solid white ;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    width: 170px;
+    font-size: 20px;
+    padding: .9em;
+  
+  }
+  .btnHire{
+    background: linear-gradient(#ff5500, #ff0062);
+    color: white;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    width: 170px;
+    font-size: 20px;
+    padding: .9em;
+    border: 1px solid black ;
+  }
+  .home-container{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1em;
+    color: white;
+  
+  }
+  
+  .start-introducing{
+    width: 80%;
+    padding: 1em;
+    margin: 1em;
+    padding-bottom: 6em;
+    background-color: rgb(0, 0, 0);
+  
+  }
+
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .cen h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    
+    color: white;
+  }
+  .cen .name{
+    background: linear-gradient(#ff5500, #ff0062);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 40px;
+  
+  }
+  .outro p{
+    font-weight: light;
+    font-size: 20px;
+    color: rgb(180, 169, 169);
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+  .Welcome p {
+    font-size: 20px;
+    color: rgb(180, 169, 169);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: light;
+  }
+  .cen{
+    color: white;
+    padding: 1.1em;
+  }
+  .outro {
+    color: white;
+    padding: 1.1em;
+  }
+
+  .Welcome{
+    color: white;
+    padding: 1.1em;
+  }
+  .btns{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 1em;
+  }
+  
+  .btnContact{
+    margin-left: 25px;
+    background-color: black;
+    color: white;
+    border: 1px solid white ;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    width: 190px;
+    font-size: 25px;
+    padding: .5em;
+  
+  }
+  .btnHire{
+    background: linear-gradient(#ff5500, #ff0062);
+    color: white;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    width: 190px;
+    font-size: 25px;
+    padding: .5em;
+    border: 1px solid black ;
+  }
+  .home-container{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1em;
+    color: white;
+  
+  }
+  
+  .start-introducing{
+    width: 80%;
+    padding: 1em;
+    margin: 1em;
+    padding-bottom: 6em;
+    background-color: rgb(0, 0, 0);
+  
+  }
+}
+
+
+@media (min-width: 1200px) and (max-width: 1350px) {
+  .home-container{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1em;
+    color: white;
+  
+  }
+  
+  .start-introducing{
+    width: 80%;
+    padding: 1em;
+    margin: 1em;
+    padding-bottom: 6em;
+    background-color: rgb(0, 0, 0);
+  
+  }
+  
+  
+  .Welcome{
+    color: white;
+    padding: 1em;
+  }
+  .Welcome p {
+    font-size: 20px;
+    color: rgb(180, 169, 169);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: light;
+  }
+  .cen .name{
+    background: linear-gradient(#ff5500, #ff0062);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 50px;
+  
+  }
+  .cen{
+    color: white;
+    padding: 1em;
+  }
+  .cen h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    
+    color: white;
+  }
+  .outro p{
+    font-weight: light;
+    font-size: 20px;
+    color: rgb(180, 169, 169);
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+  
+  .outro {
+    color: white;
+    padding: 1em;
+  }
+  .btns{
+    padding: 1em;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .btnContact{
+    margin-left: 30px;
+    background-color: black;
+    color: white;
+    border: 1px solid white ;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    width: 200px;
+    font-size: 1.5em;
+    padding: .8em;
+  
+  }
+  .btnHire{
+    background: linear-gradient(#ff5500, #ff0062);
+    color: white;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    width: 200px;
+    font-size: 1.5em;
+    padding: .8em;
+    border: 1px solid black ;
+  }
+  
+  .btnContact:hover{
+    background: linear-gradient(#ff5500, #ff0062);
+    transform: scale(1.1);
+    border: none;
+  }
+  
+  
+  .btnHire:hover{
+    background: linear-gradient(#000000, #000000);
+    color: white;
+    border: 1px solid white ;
+    transform: scale(1.1);
+  }
+}
+
+
+
+
+
+@media (min-width: 1350px) {
+  .home-container{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2em;
+    color: white;
+  
+  }
+  
+  .start-introducing{
+    width: 80%;
+    padding: 1em;
+    margin: 3em;
+    padding-bottom: 5em;
+    background-color: rgb(0, 0, 0);
+  
+  }
+  
+  
+  .Welcome{
+    color: white;
+    padding: 1em;
+  }
+  .Welcome p {
+    font-size: 25px;
+    color: rgb(180, 169, 169);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: light;
+  }
+  .cen .name{
+    background: linear-gradient(#ff5500, #ff0062);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 55px;
+  
+  }
+  .cen{
+    color: white;
+    padding: 1em;
+  }
+  .cen h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 55px;
+    
+    color: white;
+  }
+  .outro p{
+    font-weight: light;
+    font-size: 25px;
+    color: rgb(180, 169, 169);
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+  
+  .outro {
+    color: white;
+    padding: 1em;
+  }
+  .btns{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 1em;
+  }
+  
+  .btnContact{
+    margin-left: 30px;
+    background-color: black;
+    color: white;
+    border: 1px solid white ;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    width: 200px;
+    font-size: 1.5em;
+    padding: .8em;
+  
+  }
+  .btnHire{
+    background: linear-gradient(#ff5500, #ff0062);
+    color: white;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    width: 200px;
+    font-size: 1.5em;
+    padding: .8em;
+    border: 1px solid black ;
+  }
+  
+  .btnContact:hover{
+    background: linear-gradient(#ff5500, #ff0062);
+    transform: scale(1.1);
+    border: none;
+  }
+  
+  
+  .btnHire:hover{
+    background: linear-gradient(#000000, #000000);
+    color: white;
+    border: 1px solid white ;
+    transform: scale(1.1);
+  }
+}
+
+
+
+@media (min-width: 320px) and (max-width: 576px){
+  .cen h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    
+    color: white;
+  }
+  .cen .name{
+    background: linear-gradient(#ff5500, #ff0062);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 30px;
+  
+  }
+  .outro p{
+    font-weight: light;
+    font-size: 15px;
+    color: rgb(180, 169, 169);
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+  .Welcome p {
+    font-size: 15px;
+    color: rgb(180, 169, 169);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: light;
+  }
+  .cen{
+    color: white;
+    padding: .5em;
+  }
+  .outro {
+    color: white;
+    padding: .5em;
+  }
+
+  .Welcome{
+    color: white;
+    padding: .5em;
+  }
+
+
+  .btns{
+    padding: 1em;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .btnContact{
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+    border: 1px solid white ;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    width: 100px;
+    font-size: 15px;
+    padding: .5em;
+  
+  }
+  .btnHire{
+    background: linear-gradient(#ff5500, #ff0062);
+    color: white;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    width: 100px;
+    font-size: 15px;
+    padding: .5em;
+    border: 1px solid black ;
+  }
+  .home-container{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0%;
+    color: white;
+  }
+  .start-introducing{
+    width: 80%;
+    padding: 1em;
+    margin: 1em;
+    background-color: rgb(0, 0, 0);
+  
+  }
+}
+
+

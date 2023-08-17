@@ -1,0 +1,295 @@
+.an-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.sec-container{
+  background-color: black;
+  padding: 1em;
+}
+.user-experience{
+  width: 25%;
+  background-color: rgb(22, 21, 21);
+  padding: 1em;
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.icons{
+  font-size: 90px;
+  color:  #ff0241;
+  margin: 10px;
+  background-color: transparent;
+}
+.hd1{
+  font-size: 20px;
+  margin: 10px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  background-color: transparent;
+}
+.par{
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 2em;
+  text-align: center;
+  color: rgb(143, 125, 125);
+  background-color: transparent;
+}
+
+
+
+
+@media (max-width: 576px){
+  .an-container{
+    display: flex;
+    flex-direction: row;
+
+  }
+  .sec-container{
+    padding: 1em;
+  }
+  .user-experience{
+    background-color: rgb(22, 21, 21);
+    width: 100%;
+    padding: 1em;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .icons{
+    font-size: 70px;
+    color:  #ff0241;
+    margin: 10px;
+    background-color: transparent;
+  
+  }
+  .hd1{
+    background-color: transparent;
+    text-align: center;
+    font-size: 18px;
+    margin: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+  }
+  .par{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2em;
+    text-align: center;
+    color: rgb(143, 125, 125);
+    background-color: transparent;
+  }
+  
+}
+
+@media (min-width: 577px) and (max-width: 767px){
+
+  .an-container{
+    display: flex;
+    flex-direction: row;
+  }
+  .sec-container{
+    background-color: black;
+    padding: 1em;
+  }
+  .user-experience{
+    width: 80%;
+    background-color: rgb(22, 21, 21);
+    padding: 1em;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+
+  .icons{
+    font-size: 72px;
+    color:  #ff0241;
+    margin: 10px;
+    background-color: transparent;
+  }
+  .hd1{
+    font-size: 20px;
+    margin: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    background-color: transparent;
+    text-align: center;
+  }
+  .par{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2em;
+    text-align: center;
+    color: rgb(143, 125, 125);
+    background-color: transparent;
+  }
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+  .an-container{
+    display: flex;
+    flex-direction: row;
+  }
+  .sec-container{
+    background-color: black;
+    padding: 1em;
+  }
+  .user-experience{
+    width: 70%;
+    background-color: rgb(22, 21, 21);
+    padding: 1em;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+
+  .icons{
+    font-size: 72px;
+    color:  #ff0241;
+    margin: 10px;
+    background-color: transparent;
+  
+  }
+  .hd1{
+    font-size: 20px;
+    margin: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    background-color: transparent;
+    text-align: center;
+  }
+  .par{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2em;
+    text-align: center;
+    color: rgb(143, 125, 125);
+    background-color: transparent;
+  }
+
+
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+ 
+  .an-container{
+    display: flex;
+    flex-direction: row;
+
+  }
+  .sec-container{
+    background-color: black;
+    padding: 2em;
+  }
+  .user-experience{
+    width: 70%;
+    background-color: rgb(22, 21, 21);
+    padding: 2em;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+
+  .icons{
+    font-size: 72px;
+    color:  #ff0241;
+    margin: 10px;
+    background-color: transparent;
+  }
+  .hd1{
+    font-size: 20px;
+    margin: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    background-color: transparent;
+    text-align: center;
+  }
+  .par{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2em;
+    text-align: center;
+    color: rgb(143, 125, 125);
+    background-color: transparent;
+  }
+
+}
+
+
+
+
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+ 
+  .an-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+  .sec-container{
+    background-color: black;
+    padding: 1em;
+  }
+  .user-experience{
+    width: 30%;
+    background-color: rgb(22, 21, 21);
+    padding: 1em;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .icons{
+    font-size: 90px;
+    color:  #ff0241;
+    margin: 10px;
+    background-color: transparent;
+  }
+  .hd1{
+    font-size: 20px;
+    margin: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    background-color: transparent;
+    text-align: center;
+  }
+  .par{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2em;
+    text-align: center;
+    color: rgb(143, 125, 125);
+    background-color: transparent;
+  }
+  
+  
+
+}

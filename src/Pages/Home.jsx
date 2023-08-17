@@ -3,9 +3,7 @@ import './PagesStyleCss/HomeStyle.css'
 import './PagesStyleCss/aboutextension.css'
 import './PagesStyleCss/exp.css'
 import Img from '../assets/profile.jpg'
-import ImgOne from '../assets/download.png'
-import ImgTwo from '../assets/imgTwo.png'
-import ImgThree from '../assets/imgThree.png'
+
 import { MdPeopleOutline } from 'react-icons/md';
 import { MdWifi } from 'react-icons/md';
 import { MdOutlineContentPasteSearch } from 'react-icons/md';

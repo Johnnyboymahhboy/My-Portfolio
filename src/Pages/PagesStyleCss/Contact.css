@@ -124,10 +124,10 @@
     position: absolute;
     color: white;
     display: flex;
-    justify-content: end;
-    width: 300px;
+    justify-content: center;
+    width: 100%;
     top: 30px;
-    right: 60px;
+    right: 0px;
   }
   .sendingp{
     width: 100%;
@@ -207,10 +207,10 @@
     position: absolute;
     color: white;
     display: flex;
-    justify-content: end;
+    justify-content: center;
     width: 100%;
     top: 30px;
-    right: 60px;
+    right: 0px;
   }
   .sendingp{
     width: 100%;
@@ -292,10 +292,10 @@
     position: absolute;
     color: white;
     display: flex;
-    justify-content: end;
+    justify-content: center;
     width: 100%;
     top: 30px;
-    right: 60px;
+    right: 0px;
   }
   .sendingp{
     width: 100%;
@@ -309,7 +309,6 @@
     align-items: center;
     border-radius: 10px;
     transition: margin-right 0.3s;
-  
   }
   .down{
     width: 6%;
@@ -381,10 +380,10 @@
     position: absolute;
     color: white;
     display: flex;
-    justify-content: end;
+    justify-content: center;
     width: 100%;
     top: 30px;
-    right: 60px;
+    right: 0px;
   }
   .sendingp{
     width: 100%;

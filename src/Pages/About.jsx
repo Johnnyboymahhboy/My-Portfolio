@@ -11,10 +11,10 @@ function About() {
            
             <div className='para-container1'>
             <h1 className='text-heading1'>About Portfolio Minimal</h1>
-                <p>Portfolio Minimal is a Gatsby Theme that creates outstanding one-pages portfolio within minutes!</p>
-                <p>It has predefined sections for your bio, skills, projects, and contact details. If you are a writer on Medium, you can integrate your latest articles in a distinct section as well. While building the theme, I tried to keep the setup as simple as possible while keeping everything configurable if you like to.</p>
-                <p>Using theme composition, you can easily customize the CSS theme to your own preferences - e.g. change colors, fonts, etc.</p>
-                <p>Last but not least, it has some cool features you can opt-in to: Dark Mode, Splash Screen, Cookie Banner, and more to find out. </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ex impedit incidunt alias esse tempore</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum amet ut quam alias veritatis officia velit eligendi animi cupiditate maxime accusamus voluptatibus incidunt corrupti aliquid iusto, deleniti voluptates dicta magni!</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In, nisi autem unde quibusdam nesciunt libero consectetur cumque reprehenderit quasi at nobis! Doloribus sed necessitatibus amet modi eveniet doloremque ipsa esse.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae facere nemo libero dicta consequuntur quia deleniti possimus officia accusamus odit itaque debitis sunt, vero blanditiis. Ipsam repudiandae maxime voluptates aliquam. </p>
                <button className='downloadBtn1'>Download Cv</button>
             </div>
           </div>

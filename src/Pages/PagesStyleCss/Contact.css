@@ -208,7 +208,7 @@
     color: white;
     display: flex;
     justify-content: end;
-    width: 300px;
+    width: 100%;
     top: 30px;
     right: 60px;
   }
@@ -293,7 +293,7 @@
     color: white;
     display: flex;
     justify-content: end;
-    width: 300px;
+    width: 100%;
     top: 30px;
     right: 60px;
   }
@@ -382,7 +382,7 @@
     color: white;
     display: flex;
     justify-content: end;
-    width: 300px;
+    width: 100%;
     top: 30px;
     right: 60px;
   }
@@ -460,6 +460,7 @@
   }
   
   .sending{
+    width: 100%;
     position: absolute;
     color: white;
     display: flex;

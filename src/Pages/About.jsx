@@ -10,16 +10,20 @@ function About() {
                   <img className='img1' src={second} alt="" />
            
             <div className='para-container1'>
-            <h1 className='text-heading1'>About Portfolio Minimal</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ex impedit incidunt alias esse tempore</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum amet ut quam alias veritatis officia velit eligendi animi cupiditate maxime accusamus voluptatibus incidunt corrupti aliquid iusto, deleniti voluptates dicta magni!</p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In, nisi autem unde quibusdam nesciunt libero consectetur cumque reprehenderit quasi at nobis! Doloribus sed necessitatibus amet modi eveniet doloremque ipsa esse.</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae facere nemo libero dicta consequuntur quia deleniti possimus officia accusamus odit itaque debitis sunt, vero blanditiis. Ipsam repudiandae maxime voluptates aliquam. </p>
-               <button className='downloadBtn1'>Download Cv</button>
+            <h1 className='text-heading1'>About Me</h1>
+            <p>Hey, i am John Web designer and and developer from Cebu City. I create costum websites to help business do better online</p>
+                <p>I love combining the worlds of logic and creative design to make eye catching, accessible, and user friendly websites and application. </p>
+                <p>I'm a passionate web developer with a strong foundation in front-end and back-end technologies. With a keen eye for design and a commitment to creating clean, efficient code, I strive to deliver engaging and user-friendly web experiences.</p>
+                <p> dedicated and creative web developer with a passion for transforming ideas into captivating digital experiences. With a strong foundation in both front-end and back-end technologies, I immerse myself in the dynamic world of web development to create seamless, user-centric solutions </p>
+                <div className='btaa'>
+               <a className='downloadBtn' href='https://drive.google.com/uc?export=download&id=1a9ZF5LbatRIN_DPGAyEhMLj3iEtRmnvW' download="ResumeDen-1.pdf">Download Cv</a>
+               </div>
             </div>
           </div>
         </div>
         </>
+
+        
   )
 }
 

@@ -10,12 +10,13 @@ function Footer() {
     <>
       <div className='footer'>
         <h1 className='footer-text'>John Densing</h1>
-        <p className='footer-par'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet qui a ab aliquam. Animi quo itaque ratione eveniet ea, reiciendis nesciunt fugit laboriosam beatae quod? Praesentium ipsam optio autem delectus.</p>
+        <p className='footer-par'>&copy; 2023 Johnnyboy. All rights reserved.</p>
+      
         <div className='soc-media'>
-            <MdFacebook className='soc'/>
-            <AiFillInstagram className='soc'/>
-            <AiFillTwitterCircle className='soc'/>
-            <AiFillGoogleCircle className='soc'/>
+          <a href="https://www.facebook.com/Johnyoyong1" className='soc'><MdFacebook className='acon'/></a>
+          <a href="https://www.instagram.com/johnny_boyyyyyyyyyyyyyy/" className='soc'><AiFillInstagram className='acon' /></a>
+          <a href="https://twitter.com/johndensin87961" className='soc'><AiFillTwitterCircle className='acon' /></a>
+          <a href="" className='soc'><AiFillGoogleCircle className='acon' /></a>
         </div>
       </div>
     </>

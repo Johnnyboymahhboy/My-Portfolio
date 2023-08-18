@@ -39,7 +39,23 @@ const Contact = () => {
   };
 
   return (
+
     <div className='form-container'>
+        <div className='contacts-container'>
+            <div className='contacts'>
+                <h1 className='hea'>John Densing</h1>  
+                <p className='paa'>Cebu, Lapu-Lapu City</p>
+                <p className='paa'>+63-977 0622642</p>
+                <p className='paa'> 09 232 456 850</p>
+                <a className='paa' href="http://localhost:5173/My-Portfolio/contact">My Portfolio</a>
+            </div>  
+        </div>
+
+
+
+
+
+
       {isMessageSent ? <SendingAlert/> : ""}
     <form className='forms' ref={form} onSubmit={sendEmail}>
     <h1 className='hea'>Write me a message <img className='down' src={down} /> </h1>
@@ -50,6 +66,7 @@ const Contact = () => {
        name="to_name"
        value={nameInput}
        onChange={(e) => setNameInput(e.target.value)}
+       required
        />
       <label className='lab'>Your Email:</label>
       <input 
@@ -58,6 +75,7 @@ const Contact = () => {
       name="from_name"
       value={emailInput}
       onChange={(e) => setEmailInput(e.target.value)}
+      required
       />
       <label className='lab'>Message:</label>
       <textarea 
@@ -65,12 +83,18 @@ const Contact = () => {
       name="message"
       value={messageInput}
       onChange={(e) => setMessageInput(e.target.value)}
+      required
       />
       <div className='ge'>
       <input className='bts' type="submit" value="Send" />
       </div>
     </form>
+
+
+
+  
     </div>
+  
   );
 };
 

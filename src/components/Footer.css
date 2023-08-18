@@ -39,7 +39,16 @@
 }
 .soc{
   background-color: transparent;
+  color: white;
+}
 
+.acon{
+  background-color: transparent;
+}
+
+.soc:hover{
+
+  color: rgb(255, 8, 61);
 }
 
 @media (min-width: 230px) and (max-width: 319px){

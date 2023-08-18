@@ -2,14 +2,34 @@
   padding: 1em;
   display: flex;
   flex-direction: column;
-  width: 500px;
-
 }
-.form-container{
+.contacts-container{
+  background-color: transparent;
   padding: 1em;
+  width: 50%;
   display: flex;
   justify-content: center;
-  height: 70vh;
+}
+.contacts{
+  color: white;
+  padding: 1em;
+  width: 500px;
+  background-color: rgb(22, 21, 21);
+}
+.hea{
+  padding: 1em;
+  background-color: transparent;
+}
+.paa{
+  padding: 10px;
+  font-size: 20px;
+  background-color: transparent;
+}
+.form-container{
+  padding: 5em;
+  display: flex;
+  justify-content: start;
+
 }
 .lab{
   color: white;
@@ -76,19 +96,39 @@
 
 
 @media (min-width: 99px) and (max-width: 199px){
+  .contacts-container{
+    background-color: transparent;
+    padding: 1em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .contacts{
+    color: white;
+    padding: 1em;
+    width: 100%;
+    background-color: rgb(22, 21, 21);
+  }
+  .hea{
+    padding: 1em;
+    background-color: transparent;
+  }
+  .paa{
+    padding: 10px;
+    font-size: 20px;
+    background-color: transparent;
+  }
   .forms{
     padding: 1em;
     display: flex;
     flex-direction: column;
     width: 100%;
-
-  
   }
   .form-container{
     padding: .3em;
     display: flex;
     justify-content: center;
-    height: 70vh;
+    flex-direction: column;
   }
   .lab{
     color: white;
@@ -160,6 +200,28 @@
 
 
 @media (min-width: 200px) and (max-width: 319px){
+  .contacts-container{
+    background-color: transparent;
+    padding: 1em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .contacts{
+    color: white;
+    padding: 1em;
+    width: 100%;
+    background-color: rgb(22, 21, 21);
+  }
+  .hea{
+    padding: 1em;
+    background-color: transparent;
+  }
+  .paa{
+    padding: 10px;
+    font-size: 20px;
+    background-color: transparent;
+  }
   .forms{
     padding: 1em;
     display: flex;
@@ -171,7 +233,7 @@
     padding: .3em;
     display: flex;
     justify-content: center;
-    height: 70vh;
+    flex-direction: column;
   }
   .lab{
     color: white;
@@ -245,6 +307,29 @@
 
 @media (min-width: 320px) and (max-width: 576px){
 
+  .contacts-container{
+    background-color: transparent;
+    padding: 1em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .contacts{
+    color: white;
+    padding: 1em;
+    width: 100%;
+    background-color: rgb(22, 21, 21);
+  }
+  .hea{
+    padding: 1em;
+    background-color: transparent;
+  }
+  .paa{
+    padding: 10px;
+    font-size: 20px;
+    background-color: transparent;
+  }
+
   .forms{
     padding: 1em;
     display: flex;
@@ -256,7 +341,7 @@
     padding: .3em;
     display: flex;
     justify-content: center;
-    height: 70vh;
+    flex-direction: column;
   }
   .lab{
     color: white;
@@ -274,6 +359,7 @@
     padding: .3em;
     font-size: 25px;
   }
+  
   .bts{
     background-color: white;
     padding: .5em;
@@ -333,6 +419,29 @@
 
 
 @media (min-width: 577px) and (max-width: 767px){
+
+  .contacts-container{
+    background-color: transparent;
+    padding: 1em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .contacts{
+    color: white;
+    padding: 1em;
+    width: 100%;
+    background-color: rgb(22, 21, 21);
+  }
+  .hea{
+    padding: 1em;
+    background-color: transparent;
+  }
+  .paa{
+    padding: 10px;
+    font-size: 20px;
+    background-color: transparent;
+  }
   .forms{
     padding: 1em;
     display: flex;
@@ -344,7 +453,7 @@
     padding: .3em;
     display: flex;
     justify-content: center;
-    height: 70vh;
+    flex-direction: column;
   }
   .lab{
     color: white;
@@ -415,6 +524,29 @@
 
 
 @media (min-width: 768px) and (max-width: 991px) {
+
+  .contacts-container{
+    background-color: transparent;
+    padding: 1em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .contacts{
+    color: white;
+    padding: 1em;
+    width: 100%;
+    background-color: rgb(22, 21, 21);
+  }
+  .hea{
+    padding: 1em;
+    background-color: transparent;
+  }
+  .paa{
+    padding: 10px;
+    font-size: 20px;
+    background-color: transparent;
+  }
   .forms{
     padding: 1em;
     display: flex;
@@ -426,7 +558,8 @@
     padding: .3em;
     display: flex;
     justify-content: center;
-    height: 70vh;
+    flex-direction: column;
+
   }
   .lab{
     color: white;

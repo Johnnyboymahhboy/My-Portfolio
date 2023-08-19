@@ -23,7 +23,7 @@ function Home() {
                     <p className='welcome-p'>Hello There!</p>
                   </div>
                   <div className='cen'>
-                    <h2>Im <span className='name'>John Densing</span></h2>
+                    <h2>Im <span className='name'>John</span></h2>
                     <h2>A web developer</h2>
                     <h2>and web designer..</h2>
                   </div>
